@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JUSTIN'S COOL WEBSITE FOR MUSIC AND ART</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p    {font-family: ;}
+
+header {
+  background-color: midnightblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 100px; 
+  background: #ccc;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0; 
+}
+
+article {
+  padding: 10px;
+  width: 100%;
+  background-image: url('art/website\ disco\ background_20240509144645.png');
+  background-size: cover;
+  color: white;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+footer {
+  background-color: slateblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>KOOLKID'S COOL WEBSITE FOR MUSIC AND ART!</h2>
+</header>
+
+<section>
+  <article>
+     <h1>WELCOME!</h1>
+     <p>this is my website! here you can look at my art and listen to my music! i have a few different sections in this website, so use the links below to check them out.</p>
+
+     <p>Also, this should go without saying, but don't use the music and art here for like youtube and stuff without first contacting me. Some ways to contact me are in the footer down below.</p>
+
+     <p>also also, if you see anyone using the music without permission, please contact me and tell me about it.</p>
+  </article>  
+  <nav>
+    <ul>
+      <a href="#gamesongs">MUSIC FROM MY GAMES</a>
+      <br>
+      <a href="#calmsongs">SOMEWHAT CALM SONGS</a>
+      <br>
+      <a href="#artstuffs">ART</a>
+      <br>
+      <a href="#motivationals">MOTIVATIONAL QUOTES</a>
+    </ul>
+  </nav>
+  <article>
+    <h1 id="gamesongs">MUSIC FROM MY GAMES</h1>
+    <p>i make quite a few games in the coding website scratch, and I also make music for those games. here are some musics from those games.</p>
+    <p>if you want to see my scratch account, here it is.</p>
+    <a href="https://scratch.mit.edu/users/justinzedzed/">this is my scratch account.</a>
+
+    <p>also, most of these songs are supposed to be in games that are not public yet, so you can only hear them here.</p>
+    <br>
+    <p>in one of my currently upcoming games, i have a character named Glooberton, who is heavily inspired by Spamton from Toby Fox's Deltarune. and by 'heavily inspired' i mean i basically stole the entire personality and character arc of spamton and put it in my game. HE'S STILL AN ORIGINAL CHARACTER THOUGH! i made a few songs for this goober so have a listen. (all of the songs are also "heavily inspired" by spamton too)</p>
+    <br>
+
+    <p>Glooberton</p>
+    <audio controls>
+      <source src="MUSIC/Glooberton.wav" type="audio/wav">
+    sorry, but your browsing thing doesnt support .wav audio, apparently.
+    </audio>
+    <br>
+    <p>STOCKS ARE RISING</p>
+    <audio controls>
+      <source src="MUSIC/STOCKS ARE RISING.wav" type="audio/wav">
+    sorry, but your browsing thing doesnt support mp3 audio, apparently.
+    </audio>
+    <br>
+    <p>, INVEST NOW</p>
+    <p>i do plan on maybe revising this one in the future to make it a bit more deltarune styled, to lean more into the comedy aspect of glooberton being a completely unoriginal copy of spamton in every way.</p>
+
+    <audio controls>
+      <source src="MUSIC/, INVEST NOW.mp3" type="audio/mpeg">
+    sorry, but your browsing thing doesnt support mp3 audio, apparently.
+    </audio>
+    
+    <p>Beyond The Veil!</p>
+    <audio controls>
+      <source src="MUSIC/Beyond The Veil!.wav" type="audio/wav">
+    sorry, but your browsing thing doesnt support .wav audio, apparently.
+    </audio>
+    <br>
+    <br>
+    <p>i have another game i working on which is an earthbound-style rpg. well, not really "inspired," its more of a rom hack but built from the ground up in scratch.</p>
+    <p>im not sure if i have time to code it right now because im currently coding the glooberton game, but i have made some earthbound style battle themes for it.</p>
+    <p>Brawl Against An Athletic Opponent</p>
+    <audio controls>
+      <source src="MUSIC/Brawl Against An Athletic Opponent.wav" type="audio/wav">
+    sorry, but your browsing thing doesnt support .wav audio, apparently.
+    </audio>
+    <p>Brawl Against A Nerdy Opponent</p>
+    <audio controls>
+      <source src="MUSIC/Brawl Against A Nerdy Opponent.mp3" type="audio/mpeg">
+    sorry, but your browsing thing doesnt support mp3 audio, apparently.
+    </audio>
+    <p>Unexplicable</p>
+    <audio controls>
+      <source src="MUSIC/Unexplicable.wav" type="audio/wav">
+    sorry, but your browsing thing doesnt support .wav audio, apparently.
+    </audio>
+    
+    <br>
+  </article> 
+
+  <article>
+    <h1 id="calmsongs">SOMEWHAT CALM SONGS</h1>
+    <p>these songs are a bit more calm, and you can maybe use them to fall asleep or something?</p>
+    <br>
+    <p>Ordinary World</p>
+    <p>this song was inspired by the hero's journey novel plot outline thing, specifically the "ORDINARY WORLD" (that's why the song is called that) where the protagonist starts. it feels comfy and familliar but is also boring and you can feel the itch for adventure.</p>
+    <audio controls>
+      <source src="MUSIC/Ordinary World.mp3" type="audio/mpeg">
+    sorry, but your browsing thing doesnt support mp3 audio, apparently.
+    </audio>
+  </article> 
+
+  <article>
+    <h1 id="artstuffs">ART</h1>
+    <p>i make a bunch of art stuff from time to time and this section just has all of it.</p>
+    <br>
+    <p>this self portrait was made with HTML'S built-in "canvas" feature, it is a bit more limited though.</p>
+
+    <canvas id="myCanvas" width="250" height="300" style="border:3px solid #A34FF0;">
+    sorry, but your browser thingamajig doesn't support the canvas thing.</canvas>
+
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.fillStyle = "white";
+    ctx.fillRect(0,0,250,300);
+
+    var grd = ctx.createLinearGradient(0, 0, 200, 0);
+    grd.addColorStop(0, "red");
+    grd.addColorStop(1, "chartreuse");
+
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, 250, 300);
+
+    ctx.arc(120,95,40,0,2 * Math.PI);
+    ctx.stroke();
+
+    ctx.moveTo(80,95);
+    ctx.lineTo(90,30);
+    ctx.stroke();
+
+    ctx.moveTo(90,30);
+    ctx.lineTo(100,60);
+    ctx.stroke();
+
+    ctx.moveTo(100,60);
+    ctx.lineTo(110,10);
+    ctx.stroke();
+
+    ctx.moveTo(110,10);
+    ctx.lineTo(120,55);
+    ctx.stroke();
+
+    ctx.moveTo(120,55);
+    ctx.lineTo(130,10);
+    ctx.stroke();
+
+    ctx.moveTo(130,10);
+    ctx.lineTo(140,60);
+    ctx.stroke();
+
+    ctx.moveTo(140,60);
+    ctx.lineTo(150,30);
+    ctx.stroke();
+
+    ctx.moveTo(150,30);
+    ctx.lineTo(160,95);
+    ctx.stroke();
+
+    ctx.moveTo(80,95);
+    ctx.lineTo(105,70);
+    ctx.stroke();
+
+    ctx.moveTo(105,70);
+    ctx.lineTo(100,85);
+    ctx.stroke();
+
+    ctx.moveTo(100,85);
+    ctx.lineTo(120,70);
+    ctx.stroke();
+
+    ctx.moveTo(120,70);
+    ctx.lineTo(140,85);
+    ctx.stroke();
+
+    ctx.moveTo(140,85);
+    ctx.lineTo(135,70);
+    ctx.stroke();
+
+    ctx.moveTo(135,70);
+    ctx.lineTo(160,90);
+    ctx.stroke();
+
+    ctx.moveTo(85,100);
+    ctx.lineTo(155,105);
+    ctx.stroke();
+
+    ctx.moveTo(155,105);
+    ctx.lineTo(120,130);
+    ctx.stroke();
+
+    ctx.moveTo(120,130);
+    ctx.lineTo(85,100);
+    ctx.stroke();
+
+    ctx.moveTo(100,100);
+    ctx.lineTo(100,111);
+    ctx.stroke();
+
+    ctx.moveTo(120,101);
+    ctx.lineTo(120,130);
+    ctx.stroke(); 
+
+    ctx.moveTo(140,103);
+    ctx.lineTo(140,114);
+    ctx.stroke(); 
+
+    ctx.moveTo(115,72);
+    ctx.lineTo(110,100);
+    ctx.stroke(); 
+
+    ctx.moveTo(140,100);
+    ctx.lineTo(130,85);
+    ctx.stroke();
+
+    ctx.moveTo(130,85);
+    ctx.lineTo(120,100);
+    ctx.stroke();
+
+    ctx.moveTo(108,132);
+    ctx.lineTo(100,200);
+    ctx.stroke();
+
+    ctx.moveTo(132,132);
+    ctx.lineTo(140,200);
+    ctx.stroke();
+
+    ctx.moveTo(140,200);
+    ctx.lineTo(100,200);
+    ctx.stroke();
+
+    ctx.moveTo(108,200);
+    ctx.lineTo(98,325);
+    ctx.stroke();
+
+    ctx.moveTo(132,200);
+    ctx.lineTo(142,325);
+    ctx.stroke();
+
+    ctx.moveTo(120,200);
+    ctx.lineTo(120,325);
+    ctx.stroke();
+
+    ctx.moveTo(108,132);
+    ctx.lineTo(90,190);
+    ctx.stroke();
+
+    ctx.moveTo(90,190);
+    ctx.lineTo(100,190);
+    ctx.stroke();
+
+    ctx.moveTo(132,132);
+    ctx.lineTo(155,180);
+    ctx.stroke();
+
+    ctx.moveTo(155,180);
+    ctx.lineTo(178,150);
+    ctx.stroke();
+
+    ctx.moveTo(134,152);
+    ctx.lineTo(152,205);
+    ctx.stroke();
+
+    ctx.moveTo(152,205);
+    ctx.lineTo(185,170);
+    ctx.stroke();
+
+    ctx.moveTo(185,170);
+    ctx.lineTo(178,150);
+    ctx.stroke();
+
+    ctx.moveTo(178,150);
+    ctx.arc(187,155,15,0,2 * Math.PI);
+    ctx.stroke();
+
+    </script> 
+    <p>Piece title: Low Quality Self Portrait</p>
+    <p>Artist: Me</p>
+    <p>the gradient in the back was originally going to be red and blue, but it ended up looking really ugly so i used <i>chartreuse</i> instead.</p>
+<br>
+    <p>theres a sort of goofy internet thing which im a fan of, called glaggleland! basically its about a bunch of goofy smily face guys in a theme park where they ride fun rides, eat good food, and have a grand ol time. here's an ms paint drawing i made of glaggleland.</p>
+    
+    <img src="art/Glaggleland Drawing.png" alt="glaggleland" width="450"
+    <br>
+    <p>Piece title: Glaggleland View</p>
+    <p>Artist: Me</p>
+    <p>you can see in the drawing my 2 characters jiminy and simon, a giggler and a sobber who are going to be in a youtube series im making about glaggleland!</p>
+<br>
+    <p>theres this little indie game which i think is really underrated called The Multi Medium, where you play as an astronaut guy and travel between different worlds made of hand-drawn art, each in a different art form, like collage, acrylic, and stuff like that. i drew drawings in real life of some of the worlds, so here they are.</p>
+
+    <img src="art/graphiteart.png" alt="graphite world" width="475"
+    <br>
+    <p>Piece title: Interdimensional Journey</p>
+    <p>Artist: Me</p>
+    <p>The Multi Medium by Micah Boursier</p>
+    <br>
+    <img src="art/acrylicart.png" alt="acrylic world" width="475"
+    <br>
+    <p>Piece title: Little Adventures</p>
+    <p>Artist: Me</p>
+    <p>The Multi Medium by Micah Boursier</p>
+    <br>
+    <img src="art/collageart.png" alt="collage world" width="475"
+    <br>
+    <p>Piece title: Total Collapse Into Ruin</p>
+    <p>Artist: Me</p>
+    <p>The Multi Medium by Micah Boursier</p>
+    <br>
+    <p>these were made in real life with the mediums from the game, the first being graphite, then acrylic after that. the exception is the last one, collage, which i made digitally, because i don't have access to magazine clippings to do collage in real life.</p>
+    
+  </article> 
+
+  <article>
+    <h1 id="motivationals">MOTIVATIONAL QUOTES</h1>
+    <P>here's some motivational quotes for whatever, i'll try to add a new one every few days or so.</P>
+    <br>
+    <p>"The only thing predictable about life is its unpredictability." -Remy The Rat</p>
+    <br>
+    <p>"When things get hard, you'll always have someone by your side to help you." -Me!</p>
+    <br>
+    <p>“Compassion isn’t about solutions. It’s about giving all the love that you’ve got.” —Cheryl Strayed</p>
+    <br>
+    <br>
+    <p>in the end, the whole point of this is to express a belief of mine that being kind really makes a difference.</p>
+    <p>these motivational quotes are meant to make people here sort of think about whats around them, and this whole webpage thing is meant for people to reflect in general. 
+    <p>being nice is honestly one of the most important thing you can do, and i know its a bit cheesy or whatever, but if you aren't already trying to spread kindness, i hope this music and stuffs can help you out. </p>
+    <p>have a nice day to whoevers reading this! </p>
+  </article>
+
+</section>
+
+<footer>
+  <p>this is the footer. i think im supposed to have some links in here, so here's my youtube channel, as well as some other links.</p>
+  <a href="https://www.youtube.com/channel/UC0CuQrpSH5uDD8B242KThjQ">this is my youtube channel.</a>
+  <br>
+  <a href="https://scratch.mit.edu/users/justinzedzed/">this is my scratch account.</a>
+  <br>
+</footer>
+
+</body>
+</html>
